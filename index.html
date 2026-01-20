@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Store - Home</title>
+
+<style>
+    body { 
+        margin: 0; 
+        font-family: Arial, sans-serif; 
+        background-color: #ffffff; 
+    }
+
+  
+    .topheader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff0f5; 
+        padding: 15px 30px;
+        flex-wrap: wrap;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .logo { 
+        color: #ff69b4; 
+        font-size: 22px; 
+        font-weight: bold; 
+    }
+    .links a { 
+        color: #ff69b4; 
+        text-decoration: none; 
+        margin-left: 20px; 
+        font-size: 16px; 
+        font-weight: 500;
+    }
+    .links a:hover { 
+        text-decoration: underline; 
+    }
+
+   
+    .header {
+        background-color: #fff0f5; 
+        color: #333;
+        text-align: center;
+        padding: 60px 20px;
+    }
+    .header h1 { 
+        margin: 0; 
+        font-size: 36px; 
+        color: #ff69b4; 
+    }
+    .header p { 
+        margin-top: 10px; 
+        font-size: 18px; 
+        color: #555;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 40px;
+        flex-wrap: wrap;
+    }
+    .images img {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+        background-color: #ffe6f0; 
+        box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        transition: transform 0.2s;
+    }
+    .images img:hover {
+        transform: scale(1.03);
+    }
+</style>
+</head>
+<body>
+
+    <div class="topheader">
+        <div class="logo">My Store</div>
+        <div class="links">
+            <a href="website.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Welcome to My Store</h1>
+        <p>Check out our Calico Critters collection!</p>
+    </div>
+
+  
+    <div class="images">
+        <img src="https://calicocritters.com/assets/includes_gl/img/products/2669_1764551760576.jpg" alt="Red Roof Country Home">
+        <img src="https://calicocritters.com/assets/includes_gl/img/products/2658_1762740753079.jpg" alt="Baby Dream Amusement Park">
+        <img src="https://calicocritters.com/assets/includes_gl/img/products/2608_1736838441804.jpg" alt="Daydream Parade Playset">
+    </div>
+
+</body>
+</html>
